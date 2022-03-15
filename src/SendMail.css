@@ -1,0 +1,94 @@
+.sendMail {
+    position: absolute;
+    bottom: 0px;
+    right: 50px;
+    /* background-color: #404040; */
+    width: 40%;
+    height: 40%;
+    min-height: 500px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid whitesmoke;
+    box-shadow: 0 5px 7px 0px rgba(0, 0, 0, 0.24);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+
+.sendMail_header {
+    padding: 13px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: gray;
+    background-color: #404040;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 2vh;
+}
+
+.sendMail_headerLeft > h3 {
+    color: whitesmoke;
+    font-size: 13px;
+}
+
+.sendMail_send {
+    background-color: #3079ed !important;
+    text-transform: capitalize !important;
+    margin: 10px !important;
+    height: 5vh;
+}
+
+.sendMail_clsoe {
+    cursor: pointer;
+}
+
+.sendMail > form {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.sendMail > form > input,textarea {
+    height: 30px;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid whitesmoke;
+    outline: none;
+}
+
+.sendMail_massage {
+    flex: 1;
+}
+
+.sendMail_optionsLeft, .sendMail_optionsRight {
+    background-color: white;
+}
+
+.sendMail_bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.sendMail_options > .MuiSvgIcon-root {
+    padding-left: 0.4rem !important;
+}
+
+.sendMail_optionsRight > .MuiSvgIcon-root {
+    padding-right: 0.4rem;
+}
+
+.himg {
+    color: whitesmoke !important;
+}
+
+.sendMail_error {
+    background-color: white;
+    color: red;
+    text-align: right;
+    padding: 2px;
+}

@@ -1,0 +1,88 @@
+.mail{
+    flex: 1;
+    background-color: whitesmoke;
+}
+
+.mail_tools{
+    display: flex;
+    justify-content: space-between;
+    background-color:white;
+}
+
+.mail_toolsLeft{
+    display: flex;
+}
+
+.mail_bodyHeadertools {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mail_bodyHeadertools {
+    padding-bottom: 10px;
+}
+
+.mail_body {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    background-color: white;
+    padding: 0px 20px 20px 20px;
+    height: 100vh;
+    box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.24);
+}
+
+.mail_bodyHeader {
+    /* display: flex; */
+    align-items: center;
+    border-bottom: 1px solid whitesmoke;
+    padding: 20px 20px 0px 20px;
+    position: relative;
+}
+
+.mail_bodyHeader > p {
+    font-weight: 400;
+    margin-right: 20px;
+}
+
+.mail_message > p {
+    padding: 20px;
+    margin-right: 20px;
+    overflow-wrap: break-word;
+}
+
+.mail_bodyHeaderHead {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mail_bodyHeaderHeadRight, .bodyHeaderheadLeft_Left {
+    display: flex;
+    align-items: center;
+}
+
+.mail_time {
+    /* position: absolute; */
+    top: 24px;
+    right: 0;
+    font-size: 12px;
+    color: gray;
+}
+
+.bodyHeaderheadLeft_Left > .mail_bodyHeaderHeadLeft {
+    padding-left: 10px
+}
+
+.mail_bodyHeaderPadlock {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    padding-left: 50px;
+    padding-top: 0px;
+}
+
+.mail_bodyHeaderPadlock > .MuiSvgIcon-root {
+    padding-right: 5px
+}
